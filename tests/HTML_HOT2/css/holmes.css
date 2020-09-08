@@ -1,0 +1,69 @@
+/*CSS for hands on test 8/31/2020*/
+body{
+    background-color: #F0F9AE;
+    margin: 5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: #6F7830;
+    background-color: #B7C44F;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow: black;
+}
+h2 {
+    text-align:center
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 140%;
+    text-align: left;
+    color: #454732;
+    background-color: #d4df71 ;
+    width: 250px;
+    border: 325px;
+    border-color: burlywood;
+    padding: 50px;
+    margin: 30px;
+}
+.nav {
+    text-align: center;
+    padding: 4px 10px;
+    margin: 0;
+    color: #d4df71;
+    text-decoration: none;
+    background-color: #b1b880 ;
+    font-size: 20px;
+    border-style: ridge;
+    border-color: #313512;
+}
+.ul {
+    text-align: center;
+}
+li {
+    text-align: center;
+    margin: 0;
+    display: inline;
+    color: #323517;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.rsm {
+    display: block;
+}
+.wrapper {
+    width: 80%
+}
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  .footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+  }
+.intro {
+    text-align: center;
+}
