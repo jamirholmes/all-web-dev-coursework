@@ -1,0 +1,15 @@
+* {
+box-sizing: border-box;
+}
+#h1 {
+    float: right;
+    width: 80%;
+    font-size: 6em;
+}
+.row {
+    display: flex;
+}
+.column {
+    float: left;
+    width: 25%
+}
