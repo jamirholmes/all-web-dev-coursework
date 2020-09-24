@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    display: inline block;
+    background-color: lightblue;
+    border-style: none;
+    margin: 0
+}
+
+body {
+    
+}
+article {
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    text-align: left
+}
+p {
+    font-size: 32px
+}

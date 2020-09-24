@@ -1,0 +1,16 @@
+#blupage {
+    background-color: blue
+}
+#redpage {
+    background: red
+}
+#grepage {
+    background: green
+}
+#navbar {
+display: block
+
+}
+.flex-container {
+display: inline-block
+}
