@@ -1,0 +1,29 @@
+#content {
+    column-count: 1;
+    float: none;
+    width: auto;
+}
+#self {
+    float: none;
+    width: 75%;
+    margin-left: 9%;
+    margin-top: 5%;
+    border-color: palegreen
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 0
+}
+body {
+    column-count: 1
+}
+nav {
+    display: inline;
+    background: lightgrey;
+    padding: 0;
+    text-align: center
+}
+#rnkn {
+    width: 5em;
+}
