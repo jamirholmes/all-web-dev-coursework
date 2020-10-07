@@ -1,18 +1,143 @@
-nav {
-    padding: 0;
+body{
     margin: 0
+}
+header {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    margin-top: 0;
+
 }
 ul {
     list-style-type: none;
     width: 100%;
-    float: none;
     text-align: center;
     border: 5px solid black;
-    padding: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 0;
     background-color: grey;
+    bottom: 0;
+    margin-bottom: 0;;
+    margin-top: 0
 }
 li {
     color: white;
     display: inline-block;
     text-decoration: none;
+}
+a {
+    text-decoration: none;
+    padding: 50px
+}
+footer {
+    background: navy;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    position: fixed
+}
+/* Home CSS */
+
+#mainhome {
+    background: maroon;
+    display: inline-block;
+    width: 100%;
+    margin-top: 0;
+    margin: 0;
+    height: 500px;
+    border-top: 1px, white;
+    border-bottom: 1px, white
+
+}
+#sec1home {
+    background: darkorange;
+    float: left;
+    width: 33.3%;
+    height: 300px;
+
+}
+#sec2home {
+    background: gold;
+    float: left;
+    width: 33.3%;
+    height: 300px;
+
+}
+#sec3home {
+    background: purple;
+    float: left;
+    width: 33.3%;
+    height: 300px
+
+
+}
+
+/* Subpage 1 CSS */
+
+#sp1main {
+    width: 80%;
+    background: yellow;
+    float: right;
+    height: 792px;
+    margin-right: 0
+}
+#sp1aside {
+    width: 20%;
+    background: darkorange;
+    float: right;
+    height: 792px
+}
+
+/* Subpage 2 CSS */
+
+#sp2main {
+    width: 80%;
+    background: darkorange;
+    float: left;
+    height: 792px;
+    margin-right: 0
+}
+#sp2aside {
+    width: 20%;
+    background: yellow;
+    float: right;
+    height: 792px
+}
+
+/* Subpage 3 */
+#sp3sec {
+    width: 100%;
+    background: darkgreen;
+    padding-top: 25px;
+    height: 35px;
+    border-top: white, 5px;
+    border-bottom: white, 5px
+}
+#sp3main {
+    width: 100%;
+    background: magenta;
+    height: 740px;
+}
+
+/*  Subpage 4   */
+#sp4sec {
+    width: 80%;
+    height: 35px;
+    background: slateblue;
+    float: left;
+}
+#sp4main {
+    width: 80%;
+    float: left;
+    background: chocolate;
+    height: 760px;
+}
+#sp4aside {
+    width: 20%;
+    float: right;
+    background: darkcyan;
+    height: 760px;
 }

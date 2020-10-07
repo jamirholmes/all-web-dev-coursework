@@ -12,5 +12,7 @@ display: block
 
 }
 .flex-container {
-display: inline-block
+display: flex;
+flex-wrap: nowrap;
+justify-content: left;
 }
