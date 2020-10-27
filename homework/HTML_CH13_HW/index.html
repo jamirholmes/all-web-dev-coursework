@@ -16,8 +16,35 @@
             <label class="survey" for="email">E-mail Address:</label>
             <input type="text" name="email" id="email" /><br><br>
 
-            <h2>Select Your Favorite Types of Music</h2>
-            <label class="survey" for=
+            <h2>Select Your Favorite Types of Music:</h2>
+            <input type="checkbox" name="Pop"> Pop <br>
+            <input type="checkbox" name="Classical"> Classical <br>
+            <input type="checkbox" name="Rock"> Rock <br>
+            <input type="checkbox" name="Folk"> Folk <br>
+            <input type="checkbox" name="Rap"> Rap <br>
+            <input type="checkbox" name="Other"> Other <br>
+
+            <h2>Select how often you purchase Music CDs:</h2>
+            <input type="radio" name="purfreq" value=1> Weekly <br>
+            <input type="radio" name="purfreq" value=2> A few CDs each year <br>
+            <input type="radio" name="purfreq" value=3> Monthly <br>
+            <input type="radio" name="purfreq" value=4> Never purchase <br>
+
+            <h2> Select the location you listen to music most:</h2>
+            <select>
+            <option value="home">At Home</option>
+            <option value="club">Music clubs (Live Performance)</option>
+            <option value="car">In the car</option>
+            <option value="anywhere">Anywhere (MP3 Player)</option>
+            </select>
+            <br>
+            <br><br>
+            
+            <h2>What role does music play in your life?</h2>
+            <textarea name="comments" cols=60 rows=3></textarea>
+            <br><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
         </form>
     </main>
 </body>
