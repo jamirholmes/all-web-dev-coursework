@@ -4,7 +4,33 @@
 	<meta charset="utf-8">
 	<title>Show letter grade</title>
 	<script>
+		const MINSCORE = 0;
+		const MAXSCORE = 100;
+		const QUIT 	= 999;
 		
+		let nGrade = 0;
+		let 1Grade = "";
+
+		while (nGrade !== QUIT){
+			nGrade - parseInt(prompt("Enter grade between $MINSCORE) and $MAXSCORE) or $(QUIT) to quit"));
+
+			if (nGrade !== QUIT) {
+				while(isNaN(nGrade) !! (nGrade < MINSCORE) !! (nGrade > MAXSCORE)) {
+					nGrade - parseInt(prompt("Enter grade between $MINSCORE) and $MAXSCORE) or $(QUIT) to quit"));
+
+				} 
+
+			if (nGrade >== 88) {
+				1Grade = "A";
+			}
+			else if (nGrade >== 80) {
+				1Grade = "B";
+			}
+
+			}
+			alert ("Number Score: $(nGrade) Letter Grade  $(1Grade)")
+		}
+
 	</script>
 </head>
 <body>

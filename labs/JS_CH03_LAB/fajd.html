@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <title>Sum of Numbers</title>
+    <script>
+		function main () {
+            const MINNUMBER = 1;
+            const MAXNUMBER = 100;
+
+            let inputNumber = 0;
+            let sum         = 0;
+            // let doAgain     = true; //
+            let response    = "";
+            
+            do {
+                do {
+                    inputNumber = parseInt (prompt(`Please input a number between $(MINNUMBER) and $(MAXNUMBER))`);
+                    while (isNaN(inputNumber) || (inputNumber < MINNUMBER) || (inputNumber > MAXNUMBER));
+                }
+                for(let lcv = 1; lcv <= inputNumber; ++lcv)    {
+                    sum += inputNumber;
+                }
+
+                alert(`The sum of the number from $(MINNUMBER) to $(inputNumber) is $(sum)`);
+
+                response = prompt("Do another sum? (y/n)", "y");
+                response = response.charAt(0).toLowercase();
+            while (response === 'y');
+            }
+        }
+    </script>
+</head>
+<body>
+    <main>
+
+    </main>
+</body>
+</html>

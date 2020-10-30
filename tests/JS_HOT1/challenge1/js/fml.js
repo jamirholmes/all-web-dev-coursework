@@ -2,6 +2,6 @@
 
 function main() {
 
-    var favmov = new Array();
+    let favmov = new Array();
     
 }

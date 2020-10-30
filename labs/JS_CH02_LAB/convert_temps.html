@@ -4,7 +4,33 @@
     <meta charset="UTF-8">	
     <title>Convert from Fahrenheit to Centigrade</title>
     <script>
-       
+       function main () {
+
+        const MINTEMP = -100;   //Min allowable temp//
+        const MAXTEMP = 212;    //Max allowable temp//
+        const QUIT    = 999;    //Program quit variable//
+
+           let fTemp = 0; //Fahrenheit//
+           let cTemp = 0; //Celsius//
+           let runAgain = true; //Program continue flag//
+           let response = ""; //Program continue variable
+            
+        while (fTemp !== QUIT) {
+           fTemp = parseInt(prompt("Enter Fahrenheit temperature:","70");
+           if (fTemp === QUIT) {
+               while (isNaN(fTemp)) !! (fTemp < MINTEMP) !!  (fTemp > MAXTEMP)
+
+           }
+           else {
+           while (isNaN(fTemp)) {
+               fTemp = parseInt (prompt("Enter Fahrenheit temperature", "70"));
+
+            cTemp = ((fTemp - 32) * (5 / 9));
+
+            alert ('Fahrenheit Temperature: $(fTemp)\nCelsius Tempearture: $(cTemp)')
+           }
+           }
+       }
     </script>
 </head>
 <body>
