@@ -104,7 +104,7 @@
 	// add event listener to Submit button
 	let submitButton = ($("sButton"));
 	if ($("sButton").addEventListener) {
-		($("sButton")).addEventListener("click", calcTotal, false); //Possible syntax error with unfinished quotation mark//
+		($("sButton")).addEventListener("click", calcTotal, false); //Possible syntax error fix with unfinished quotation mark//
 	} else if ($("sButton").attachEvent)  {
 		($("sButton").attachEvent("onclick", calcTotal));
 	}
