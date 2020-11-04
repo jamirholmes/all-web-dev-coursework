@@ -6,17 +6,17 @@
     <link rel="stylesheet" href="mpg.css">
     <script>
         "use strict";
-        var $ = function(id) {
+        let $ = function(id) {
             return document.getElementById(id);
         };
-        var calculateMpg = function(miles, gallons) {
-			var mpg = (miles / gallons);
+        let calculateMpg = function(miles, gallons) {
+			let mpg = (miles / gallons);
 			mpg = mpg.toFixed(1);
 			return mpg;
 		};
-		var processEntries = function() {
-            var miles = parseFloat($("miles").value);
-            var gallons = parseFloat($("gallons").value);
+		let processEntries = function() {
+            let miles = parseFloat($("miles").value);
+            let gallons = parseFloat($("gallons").value);
 
             if (isNaN(miles) || isNaN(gallons)) {
                 alert("Both entries must be numeric");
@@ -26,7 +26,7 @@
                 $("mpg").value = calculateMpg(miles, gallons);
             }
         };
-		var clearEntries = function() {
+		let clearEntries = function() {
 			$("miles").value = "";
 			$("gallons").value = "";
 			$("mpg").value = "";
